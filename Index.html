@@ -1,1 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Umar Muhammad Sani | Profile</title>
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+background:linear-gradient(135deg,#1f4e79,#4ca1af);
+min-height:100vh;
+display:flex;
+flex-direction:column;
+}
+
+/* Header */
+
+header{
+background:#0f2d4a;
+color:white;
+text-align:center;
+padding:25px;
+}
+
+header h1{
+font-size:28px;
+margin-bottom:5px;
+}
+
+header p{
+font-size:14px;
+}
+
+/* Profile Section */
+
+.container{
+flex:1;
+display:flex;
+justify-content:center;
+align-items:center;
+padding:40px;
+}
+
+.card{
+background:white;
+width:420px;
+padding:30px;
+border-radius:12px;
+box-shadow:0 10px 25px rgba(0,0,0,0.2);
+text-align:center;
+animation:fadeIn 1s ease;
+}
+
+@keyframes fadeIn{
+from{opacity:0; transform:translateY(20px);}
+to{opacity:1; transform:translateY(0);}
+}
+
+.profile-img{
+width:120px;
+height:120px;
+border-radius:50%;
+object-fit:cover;
+border:4px solid #1f4e79;
+margin-bottom:15px;
+}
+
+.bio{
+color:#555;
+font-size:14px;
+margin-bottom:20px;
+}
+
+.section{
+text-align:left;
+margin-top:15px;
+}
+
+.section h3{
+color:#1f4e79;
+margin-bottom:5px;
+}
+
+.section i{
+margin-right:8px;
+color:#1f4e79;
+}
+
+/* Social links */
+
+.social{
+margin-top:20px;
+}
+
+.social a{
+margin:0 10px;
+color:#1f4e79;
+font-size:20px;
+transition:0.3s;
+}
+
+.social a:hover{
+color:#4ca1af;
+}
+
+/* Footer */
+
+footer{
+background:#0f2d4a;
+color:white;
+text-align:center;
+padding:15px;
+font-size:13px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>Umar Muhammad Sani</h1>
+<p>3MTT NextGen Cohort</p>
+<p>Fellow ID: FE/23/99448209</p>
+</header>
+
+<div class="container">
+
+<div class="card">
+
+<img src="/images/image.jpg" class="profile-img">
+
+<p class="bio">
+I am currently studying Web Development under the 3MTT NextGen Cohort. 
+I am passionate about technology, software development, and creating useful digital solutions.
+</p>
+
+<div class="section">
+<h3><i class="fas fa-utensils"></i>Favorite Food</h3>
+<p>Rice and Chicken</p>
+</div>
+
+<div class="section">
+<h3><i class="fas fa-globe"></i>Favorite Website</h3>
+<p>
+<a href="https://www.google.com" target="_blank">Google</a>
+</p>
+</div>
+
+<div class="social">
+
+<a href="#"><i class="fab fa-github"></i></a>
+<a href="#"><i class="fab fa-linkedin"></i></a>
+<a href="#"><i class="fab fa-twitter"></i></a>
+
+</div>
+
+</div>
+
+</div>
+
+<footer>
+© 2026 Umar Muhammad Sani | 3MTT Profile Assignment
+</footer>
+
+</body>
+</html>
